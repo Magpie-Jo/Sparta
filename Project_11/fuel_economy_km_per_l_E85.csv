@@ -1,6 +1,0 @@
-﻿year,make,model,class,engine_l,cylinders,transmission,fuel_code,city_l_per_100km,hwy_l_per_100km,comb_l_per_100km,comb_km_per_l,combined_mpg,emissions_g_per_km_original,co2_g_per_km_E85
-2000,ACURA,1.6EL,COMPACT,1.6,4,A4,X,9.2,6.7,8.1,12.35,35,186,122.0
-2000,ACURA,1.6EL,COMPACT,1.6,4,M5,X,8.5,6.5,7.6,13.16,37,175,114.0
-2000,ACURA,3.2TL,MID-SIZE,3.2,6,AS5,Z,12.2,7.4,10.0,10.0,28,230,150.0
-2000,ACURA,3.5RL,MID-SIZE,3.5,6,A4,Z,13.4,9.2,11.5,8.7,25,264,173.0
-2000,ACURA,INTEGRA,SUBCOMPACT,1.8,4,A4,X,10.0,7.0,8.6,11.63,33,198,129.0
