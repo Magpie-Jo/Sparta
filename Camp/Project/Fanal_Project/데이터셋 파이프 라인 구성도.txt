@@ -1,0 +1,63 @@
+데이터셋 파이프 라인 구성도
+
+매치 팀 결과
+ids_ts_mg - 경기ID 부여
+match_ec_st - 크래딧 소모 유형 별 통계
+match_sc - 매치 스코어
+match_mp_sc - 라운드 스코어
+agents_tm_pk_ag -  요원리스트 화
+match_wl_cnt - 폭파&전멸 유형 별 통계
+
+
+매치 벤픽 정보
+ids_ts_mg - 경기ID 부여
+match_dr_ph
+
+
+
+선수 별 매치 통계
+ids_ts_mg - 경기ID 부여
+match_ov - 선수별 공수 통계 
+match_kl_st - 선수별 매치당 킬/설치/해체 정보 요약
+player_pl_st
+
+
+
+선수 간 상대 전적
+match_kl
+
+
+
+라운드 별 킬로그
+ids_ts_mg - 경기ID 부여
+match_ro_kl
+
+
+
+맵별 통계
+agents_ag_pk
+agents_mp_st
+
+
+
+-----------------------------------------------------------------------
+
+변형 필요
+match_ec_st - Eco 종류별로 행 -> 열로 변경 필요
+agents_tm_pk_ag -  요원리스트 화
+
+
+날릴 데이터
+
+eco_rounds - 챔피언스 2025 데이터만 누락
+ids_pl_id - 선수 ID로 필요없을듯
+ids_tm_id - 팀 ID로 필요없을듯 
+ids_ts_mt - ids_ts_mg에 전부 포함되어있음
+match_mp_pl - 다른 데이터셋에 대부분 포함
+
+
+
+참고형 데이터
+match_tm_mp - 팀 풀네임/ 축약명 으로 구성
+match_wl_ro_num - 라운드 유형별 결과
+
